@@ -1,0 +1,33 @@
+# 백준 11725 : 트리의 부모 찾기
+
+# https://www.acmicpc.net/problem/11725
+
+from collections import deque
+
+input = open("input.txt").readline
+
+node_cnt = int(input())
+
+lines = [[] for _ in range(node_cnt+1)]
+
+for _ in range(node_cnt-1):
+    a, b = map(int, input().split())
+    lines[a].append(b)
+    lines[b].append(a)
+
+parent = [-1]*(node_cnt+1)
+
+dq = deque([1])
+parent[1] = 0
+
+while dq:
+    now_n = dq.popleft()
+
+    for next_n in lines[now_n]:
+        if not parent[next_n] == -1:
+            continue
+        parent[next_n] = now_n
+        dq.append((next_n))
+
+for ans in parent[2:]:
+    print(ans)

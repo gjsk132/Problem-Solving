@@ -1,0 +1,21 @@
+# 백준 15652 : N과 M (4)
+
+# https://www.acmicpc.net/problem/15652
+
+input = open("input.txt").readline
+
+N, M = map(int, input().split())
+
+stack = []
+
+def recursion(pre, cnt):
+    if cnt == M:
+        print(" ".join(map(str, stack)))
+        return
+    
+    for i in range(pre, N+1):
+        stack.append(i)
+        recursion(i, cnt+1)
+        stack.pop()
+
+recursion(1, 0)
