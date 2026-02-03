@@ -1,6 +1,6 @@
 #https://www.acmicpc.net/contest/problem/1615/3
 
-input = open("input.txt").readline
+input = open(0).readline
 
 student, chapter = map(int, input().split())
 

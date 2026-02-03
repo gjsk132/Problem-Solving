@@ -2,7 +2,7 @@
 
 from collections import defaultdict
 
-input = open("input.txt").readline
+input = open(0).readline
 
 width, height = map(int, input().split())
 

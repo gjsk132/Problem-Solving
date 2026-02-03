@@ -2,7 +2,7 @@
 
 # https://www.acmicpc.net/problem/29733
 
-input = open("input.txt").readline
+input = open(0).readline
 
 # 세로, 가로, 높이
 y, x, z = map(int, input().split())

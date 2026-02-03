@@ -2,7 +2,7 @@
 
 # https://www.acmicpc.net/problem/30395
 
-input = open("input.txt").readline
+input = open(0).readline
 
 day = int(input())
 

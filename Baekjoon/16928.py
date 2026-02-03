@@ -5,7 +5,7 @@
 import heapq as hq
 from collections import defaultdict
 
-input = open("input.txt").readline
+input = open(0).readline
 
 ladder_cnt, snake_cnt = map(int, input().split())
 

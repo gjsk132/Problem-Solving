@@ -2,7 +2,7 @@
 
 # https://www.acmicpc.net/problem/26122
 
-input = open("input.txt").readline
+input = open(0).readline
 
 total_length = int(input())
 

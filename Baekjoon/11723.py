@@ -2,7 +2,7 @@
 
 # https://www.acmicpc.net/problem/11723
 
-input = open("input.txt").readline
+input = open(0).readline
 
 S = 0
 

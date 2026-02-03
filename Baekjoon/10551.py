@@ -2,7 +2,7 @@
 
 # https://www.acmicpc.net/problem/10551
 
-input = open("input.txt").readline
+input = open(0).readline
 
 keyboard = {0:'`1QAZ', 1:'2WSX', 2:'3EDC', 3:'4RFV5TGB', 4:'6YHN7UJM', 5:'8IK,', 6:'9OL.', 7:"0P;/-['=]"}
 

@@ -4,7 +4,7 @@
 
 # explain problem
 
-input = open("input.txt").readline
+input = open(0).readline
 
 # 주어진 3개의 문자열이 전부 숫자가 아닐 경우는 없음
 # 숫자인 것을 찾아서 다음에 올 숫자 찾기

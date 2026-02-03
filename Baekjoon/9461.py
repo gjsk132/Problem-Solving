@@ -2,7 +2,7 @@
 
 # https://www.acmicpc.net/problem/9461
 
-input = open("input.txt").readline
+input = open(0).readline
 
 cases = int(input())
 

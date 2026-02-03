@@ -7,7 +7,7 @@
 
 # 같은게 연속으로 몇 개 나왔는지, 숫자가 변경될 때, 이전에 나왔던거랑 같은지 확인하기
 
-input = open("input.txt").readline
+input = open(0).readline
 
 N = int(input())
 fruits = list(map(int,input().split()))

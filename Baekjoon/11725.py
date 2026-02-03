@@ -4,7 +4,7 @@
 
 from collections import deque
 
-input = open("input.txt").readline
+input = open(0).readline
 
 node_cnt = int(input())
 

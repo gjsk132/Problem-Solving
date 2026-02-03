@@ -4,7 +4,7 @@
 
 import heapq as hq
 
-input = open("input.txt").readline
+input = open(0).readline
 
 N, M, H = map(int, input().split())
 

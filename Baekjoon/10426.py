@@ -2,7 +2,7 @@
 
 # https://www.acmicpc.net/problem/10426
 
-input = open("input.txt").readline
+input = open(0).readline
 
 start_date, add_day = input().split()
 

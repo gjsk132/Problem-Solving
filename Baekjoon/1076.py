@@ -2,7 +2,7 @@
 
 # https://www.acmicpc.net/problem/1076
 
-input = open("input.txt").readline
+input = open(0).readline
 
 resistance = ["black", "brown", "red", "orange", "yellow", "green", "blue", "violet", "grey", "white"]
 

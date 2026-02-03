@@ -1,6 +1,6 @@
 #https://www.acmicpc.net/contest/problem/1615/5
 
-input = open("input.txt").readline
+input = open(0).readline
 
 prob_cnt, left_time, target_score = map(int, input().split())
 

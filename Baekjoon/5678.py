@@ -2,7 +2,7 @@
 
 # https://www.acmicpc.net/problem/5678
 
-input = open("input.txt").readline
+input = open(0).readline
 
 def check_versus():
     rounds = int(input())

@@ -2,7 +2,7 @@
 
 # https://www.acmicpc.net/problem/1926
 
-input = open("input.txt").readline
+input = open(0).readline
 
 size = int(input())
 

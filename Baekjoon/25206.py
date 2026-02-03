@@ -2,7 +2,7 @@
 
 # https://www.acmicpc.net/problem/25206
 
-input = open("input.txt").readline
+input = open(0).readline
 
 score = {
     "A+" : 4.5,

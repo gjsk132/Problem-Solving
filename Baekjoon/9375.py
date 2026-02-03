@@ -4,7 +4,7 @@
 
 from collections import defaultdict
 
-input = open("input.txt").readline
+input = open(0).readline
 
 def calculate_cases(clothes_cnt):
     clothes = defaultdict(int)

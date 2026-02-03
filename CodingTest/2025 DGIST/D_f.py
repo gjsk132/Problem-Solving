@@ -1,6 +1,6 @@
 #https://www.acmicpc.net/contest/problem/1615/4
 
-input = open("input.txt").readline
+input = open(0).readline
 
 N, L = map(int, input().split())
 

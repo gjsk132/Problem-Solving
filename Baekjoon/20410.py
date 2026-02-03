@@ -2,7 +2,7 @@
 
 # https://www.acmicpc.net/problem/20410
 
-input = open("input.txt").readline
+input = open(0).readline
 
 m, seed, x_1, x_2 = map(int, input().split())
 

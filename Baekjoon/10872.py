@@ -4,7 +4,7 @@
 
 # 단순 팩토리얼 구현 문제
 
-input = open("input.txt").readline
+input = open(0).readline
 
 cnt = int(input())
 

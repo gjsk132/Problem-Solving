@@ -2,7 +2,7 @@
 
 # https://www.acmicpc.net/problem/6376
 
-input = open("input.txt").readline
+input = open(0).readline
 
 i_fac = 1
 

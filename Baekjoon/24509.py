@@ -2,7 +2,7 @@
 
 # https://www.acmicpc.net/problem/24509
 
-input = open("input.txt").readline
+input = open(0).readline
 
 student_cnt = int(input())
 

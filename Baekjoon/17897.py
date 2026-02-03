@@ -2,7 +2,7 @@
 
 # https://www.acmicpc.net/problem/17897
 
-input = open("input.txt").readline
+input = open(0).readline
 
 restaurants_cnt = int(input())
 

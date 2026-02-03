@@ -4,7 +4,7 @@
 
 from collections import deque
 
-input = open("input.txt").readline
+input = open(0).readline
 
 # R : 배열 뒤집기
 # D : 첫 번째 요소 버리기 (error : empty array)

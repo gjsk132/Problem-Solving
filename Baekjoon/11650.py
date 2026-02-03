@@ -2,7 +2,7 @@
 
 # https://www.acmicpc.net/problem/11650
 
-input = open("input.txt").readline
+input = open(0).readline
 
 N = int(input())
 dots = [list(map(int, input().split())) for _ in range(N)]

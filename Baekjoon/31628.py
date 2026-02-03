@@ -2,7 +2,7 @@
 
 # https://www.acmicpc.net/problem/31628
 
-input = open("input.txt").readline
+input = open(0).readline
 
 cols = [set([]) for _ in range(10)]
 

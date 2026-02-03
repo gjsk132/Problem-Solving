@@ -2,7 +2,7 @@
 
 # https://www.acmicpc.net/problem/2929
 
-input = open("input.txt").readline
+input = open(0).readline
 
 contents = input().strip()
 

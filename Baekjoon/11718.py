@@ -2,7 +2,7 @@
 
 # https://www.acmicpc.net/problem/11718
 
-input = open("input.txt").readline
+input = open(0).readline
 
 # vs code에서 가능한 코드
 while True:

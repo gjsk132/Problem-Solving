@@ -4,7 +4,7 @@
 
 # explain problem
 
-input = open("input.txt").readline
+input = open(0).readline
 
 N = int(input())
 

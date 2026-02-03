@@ -2,7 +2,7 @@
 
 # https://www.acmicpc.net/problem/16239
 
-input = open("input.txt").readline
+input = open(0).readline
 
 total = int(input())
 cnt = int(input())

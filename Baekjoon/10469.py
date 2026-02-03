@@ -2,7 +2,7 @@
 
 # https://www.acmicpc.net/problem/10469
 
-input = open("input.txt").readline
+input = open(0).readline
 
 check = [[False]*15 for _ in range(4)]
 

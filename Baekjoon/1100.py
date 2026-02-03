@@ -2,7 +2,7 @@
 
 # https://www.acmicpc.net/problem/1100
 
-input = open("input.txt").readline
+input = open(0).readline
 
 chess_board = [input().strip() for _ in range(8)]
 

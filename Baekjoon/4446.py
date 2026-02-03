@@ -2,7 +2,7 @@
 
 # https://www.acmicpc.net/problem/4446
 
-input = open("input.txt").readline
+input = open(0).readline
 
 before_vowels = "aiyeou"
 before_consonants = "bkxznhdcwgpvjqtsrlmf"

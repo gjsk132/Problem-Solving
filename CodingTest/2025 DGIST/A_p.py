@@ -1,6 +1,6 @@
 #https://www.acmicpc.net/contest/problem/1615/1
 
-input = open("input.txt").readline
+input = open(0).readline
 
 n_h, n_min, n_sec = map(int, input().split(":"))
 s_h, s_min, s_sec = map(int, input().split(":"))

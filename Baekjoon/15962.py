@@ -2,6 +2,6 @@
 
 # https://www.acmicpc.net/problem/15962
 
-input = open("input.txt").readline
+input = open(0).readline
 
 print("파이팅!!")

@@ -2,7 +2,7 @@
 
 # https://www.acmicpc.net/problem/16951
 
-input = open("input.txt").readline
+input = open(0).readline
 
 cnt, favor_num = map(int, input().split())
 

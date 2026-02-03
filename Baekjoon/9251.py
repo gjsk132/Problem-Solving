@@ -2,7 +2,7 @@
 
 # https://www.acmicpc.net/problem/9251
 
-input = open("input.txt").readline
+input = open(0).readline
 
 a, b = input().strip(), input().strip()
 board = [[0]*(len(b)+1) for _ in range(2)]

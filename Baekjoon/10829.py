@@ -2,7 +2,7 @@
 
 # https://www.acmicpc.net/problem/10829
 
-input = open("input.txt").readline
+input = open(0).readline
 
 value = int(input())
 

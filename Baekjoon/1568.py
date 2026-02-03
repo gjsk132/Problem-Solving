@@ -2,7 +2,7 @@
 
 # https://www.acmicpc.net/problem/1568
 
-input = open("input.txt").readline
+input = open(0).readline
 
 sing_num = 1
 
