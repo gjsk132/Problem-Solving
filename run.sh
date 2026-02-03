@@ -1,6 +1,6 @@
 #!/bin/bash
 
-RUN_FILE="$(ls -t *.py | head -n 1)"
+RUN_FILE="$(ls -t Baekjoon/*.py | head -n 1)"
 
 echo "[selected file] $RUN_FILE"
 
