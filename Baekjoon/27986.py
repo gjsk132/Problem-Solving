@@ -1,6 +1,11 @@
 # 27986 : 평범한 구성적 문제
 # https://www.acmicpc.net/problem/27986
 
+# [ 더 나은 풀이법 ]
+# 굳이 구간마다 숫자를 확인하지 않아도 되는 방법
+# K가 가장 짧은 구간의 길이이기 때문에 그냥 1부터 K까지 숫자가 반복되도록 하면 됨
+# 시간 : 196ms >> 60ms / 메모리 : 그대로
+
 X_length, section_cnt = map(int, input().split())
 
 shortest_section_len = float('inf')
